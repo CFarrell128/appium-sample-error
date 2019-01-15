@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="50.033" tests="1" failures="2">
+  <testsuite name="Root Suite" timestamp="2019-01-15T03:12:21" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="Login tests" timestamp="2019-01-15T03:12:49" tests="1" file="/Users/precisionautonomy/Documents/Work/MobileApp/appium-sample-error/e2e/login.e2e-spec.js" failures="2" time="50.033">
+    <testcase name="Login tests should find an element by text" time="0.024" classname="should find an element by text">
+      <failure><![CDATA[Error: [elements("xpath","//*[@label='Login' or @value='Login' or @hint='Login']")] Not JSON response
+    at exports.newError (node_modules/wd/lib/utils.js:149:13)
+    at /Users/precisionautonomy/Documents/Work/MobileApp/appium-sample-error/node_modules/wd/lib/callbacks.js:78:17
+    at /Users/precisionautonomy/Documents/Work/MobileApp/appium-sample-error/node_modules/wd/lib/webdriver.js:185:5
+    at Request._callback (node_modules/wd/lib/http-utils.js:89:7)
+    at Request.self.callback (node_modules/wd/node_modules/request/request.js:186:22)
+    at Request.EventEmitter.emit (domain.js:441:20)
+    at Request.<anonymous> (node_modules/wd/node_modules/request/request.js:1163:10)
+    at Request.EventEmitter.emit (domain.js:441:20)
+    at IncomingMessage.<anonymous> (node_modules/wd/node_modules/request/request.js:1085:12)
+    at IncomingMessage.EventEmitter.emit (domain.js:441:20)
+    at endReadableNT (_stream_readable.js:1094:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)]]></failure>
+    </testcase>
+    <testcase name="Login tests &quot;after each&quot; hook for &quot;should find an element by text&quot;" time="50.009" classname="&quot;after each&quot; hook for &quot;should find an element by text&quot;">
+      <failure><![CDATA[Error: Timeout of 50000ms exceeded. For async tests and hooks, ensure "done()" is called; if returning a Promise, ensure it resolves. (/Users/precisionautonomy/Documents/Work/MobileApp/appium-sample-error/e2e/login.e2e-spec.js)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,17 @@
+{
+  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "version": 1,
+  "newProjectRoot": "projects",
+  "cli": {
+    "defaultCollection": "@nativescript/schematics"
+  },
+  "projects": {
+    "pay-per-fly": {
+      "root": "",
+      "sourceRoot": "src/app",
+      "projectType": "application",
+      "prefix": "ns"
+    }
+  },
+  "defaultProject": "pay-per-fly"
+}
